@@ -5,4 +5,28 @@ body {background-color: #ee9595;}
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
-  transform: rotate(180deg);}
+  transform: rotate(180deg);
+display: block;}
+
+  .frac{
+              display: inline-block;
+              position: relative;
+              vertical-align: middle;
+              letter-spacing: 0.001em;
+              text-align: center;
+          }
+          .frac > span {
+            display: block;
+            padding: 0.1em;
+        }
+
+        .frac span.bottom{
+            border-top: thin solid #000;
+        }
+
+        .frac span.symbol {
+            display: none;
+        }
+
+
+.p1{display: inline-block;}
